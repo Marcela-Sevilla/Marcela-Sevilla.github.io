@@ -1,0 +1,118 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8d3ef;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/* Sección que ocupa el 70% de la pantalla */
+.section-70 {
+    margin-right: 15px;
+    flex: 7;
+}
+
+/* Sección que ocupa el 30% de la pantalla */
+.section-30 {
+    flex: 3;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.top-left-image {
+    width: 40px;
+    height: 40px;
+}
+
+.section-70 p {
+    color: #674188;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.input-button-group {
+    position: relative;
+    top: 270px;
+    width: 100%;
+}
+
+.full-width-input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    color: #674188;
+}
+
+.full-width-input:focus {
+    outline: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Estilos para los botones */
+.action-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #674188;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.action-button:last-child {
+    margin-right: 0;
+}
+
+/* Media Queries para tablets y móviles */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .section {
+        flex: none;
+        margin-bottom: 15px;
+    }
+
+    .section-70, .section-30 {
+        width: 100%;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .action-button {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .action-button:last-child {
+        margin-bottom: 0;
+    }
+}
