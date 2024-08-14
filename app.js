@@ -2,7 +2,7 @@ function toggleContent(result) {
     let divResult = document.getElementById('divResult');
     divResult.innerHTML  = `
         <p id="content">${result}</p>
-        <button class="primary-button" onclick="copyContent()">Copiar</button>
+        <button class="copy-button" onclick="copyContent()">Copiar</button>
     `;
 }
 

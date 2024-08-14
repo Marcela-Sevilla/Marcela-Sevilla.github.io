@@ -141,6 +141,23 @@ body {
     border: 2px solid transparent;
 }
 
+.copy-button {
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #674188;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    padding:  15px;
+}
+
+.copy-button:hover {
+    background-color: transparent;
+    color: #674188;
+    border: 2px solid #674188;
+}
+
 /* Media Queries para tablets y móviles */
 
 @media screen and (min-width: 301px) and (max-width: 764px) {
