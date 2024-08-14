@@ -177,3 +177,59 @@ body {
         width: 100%;
     }
 }
+
+@media screen and (min-width: 300px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .section {
+        flex: none;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .section-70 {
+        height: 70vh;
+    }
+
+    .section-70, .section-30 {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .input-button-group {
+        top: 0%;
+        width: 100%;
+    }
+
+    .section-70 p {
+        padding-top: 0px;
+        padding-left:0px;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .action-button {
+        margin-right: 0;
+        margin-bottom: 10px;
+        border-radius: 22px;
+        padding:  15px;
+    }
+
+    .action-button:last-child {
+        margin-bottom: 0;
+    }
+
+    .section-30 {
+        margin-bottom: 30px;
+    }
+
+    .center-image {
+        width: 290px;
+        height: 300px;
+    }
+    
+}
