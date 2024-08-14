@@ -169,3 +169,11 @@ body {
         margin-bottom: 0;
     }
 }
+
+@media screen and (min-width: 1400px) {
+    .input-button-group {
+        position: relative;
+        top: 60%;
+        width: 100%;
+    }
+}
