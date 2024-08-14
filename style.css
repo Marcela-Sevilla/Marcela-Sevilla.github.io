@@ -46,7 +46,7 @@ body {
 
 .input-button-group {
     position: relative;
-    top: 270px;
+    top: 48%;
     width: 100%;
 }
 
@@ -72,20 +72,42 @@ body {
 
 /* Estilos para los botones */
 .action-button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #674188;
-    color: white;
-    font-size: 16px;
-    border-radius: 4px;
+    font-size: 18px;
+    border-radius: 30px;
     cursor: pointer;
     flex: 1;
     margin-right: 10px;
     box-sizing: border-box;
+    transition: all 0.3s ease;
+    padding:  22px 20px;
 }
 
 .action-button:last-child {
     margin-right: 0;
+}
+
+.primary-button {
+    background-color: #674188;
+    color: white;
+    border: 2px solid transparent;
+}
+
+.primary-button:hover {
+    background-color: transparent;
+    color: #674188;
+    border: 2px solid #674188;
+}
+
+.second-button {
+    background-color: transparent;
+    color: #674188;
+    border: 2px solid #674188;
+}
+
+.second-button:hover {
+    background-color: #674188;
+    color: white;
+    border: 2px solid transparent;
 }
 
 /* Media Queries para tablets y móviles */
