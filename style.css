@@ -44,6 +44,16 @@ body {
     justify-content: center;
 }
 
+.center-content h2{
+   color: #674188;
+}
+
+.center-content p{
+    color: grey;
+    font-size: 16px;
+    font-weight: 500;
+ }
+ 
 /* Imagen centrada */
 .center-image {
     width: 350px;
